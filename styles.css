@@ -1026,11 +1026,23 @@ textarea {
   .prof-container {
     grid-template-columns: 1fr;
   }
+
+  .prep{
+        width: 100%;
+
+  }
+  .prepod{
+        font-size: 30px;
+  }
+  .card-title, .vse{
+  font-size: 20px;}
    .hero {
     padding: 60px 0;
     clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
   }
-
+.item-content {
+      padding-top: 0;
+}
   .hero h1 {
     font-size: 2.5rem;
   }
@@ -1168,6 +1180,8 @@ textarea {
   .footer {
     flex-direction: column;
     padding: 15px;
+        display: none;
+
   }
 
   /* Адаптация структуры управления */
