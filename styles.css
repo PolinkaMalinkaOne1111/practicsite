@@ -1048,11 +1048,15 @@ textarea {
     
     padding: 20px;
   }
+
+  .documents-container{
+    grid-template-columns: auto;
+  }
   .prepod{
         font-size: 30px;
   }
 
-  ..news-title{
+  .news-title{
         font-size: xx-large;
     margin-top: 0;
   }
