@@ -802,3 +802,36 @@ li::before {
   list-style-type: none !important;
   list-style: none !important;
 }
+
+.tbl {
+  margin-top: 1px;
+  font-family: "Podkova", serif;
+  font-size: 24px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+.tbl a {
+  text-decoration: none;
+}
+.footer {
+  width: 100%; /* Ширина на весь экран */
+  background-color: #007904; /* Зеленый цвет */
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer a {
+  color: white;
+}
+
+.footer a:hover {
+  color: #01530b;
+}
