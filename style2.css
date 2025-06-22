@@ -720,7 +720,9 @@ li::before {
   display: block;
   font-size: 24px;
 }
-
+.logo4 {
+  font-size: 55px;
+}
 .side-menu ul li a:hover {
   color: rgb(198, 191, 191);
   text-decoration: none;
