@@ -1046,6 +1046,11 @@ textarea {
   .prepod{
         font-size: 30px;
   }
+
+  ..news-title{
+        font-size: xx-large;
+    margin-top: 0;
+  }
   .card-title, .vse{
   font-size: 20px;}
    .hero {
