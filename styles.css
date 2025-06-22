@@ -566,11 +566,7 @@ a {
   right: -5px;
 }
 
-@media (max-width: 768px) {
-  .news-grid {
-    grid-template-columns: 1fr;
-  }
-}
+
 
 .container {
   max-width: 1200px;
@@ -840,25 +836,7 @@ textarea {
   color: inherit;
 }
 
-/* Адаптивность */
-@media (max-width: 768px) {
-  .hero {
-    padding: 60px 0;
-    clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
-  }
 
-  .hero h1 {
-    font-size: 2.5rem;
-  }
-
-  .timeline {
-    padding-left: 30px;
-  }
-
-  .timeline-item::before {
-    left: -24px;
-  }
-}
 
 /* Программы обучения */
 .programs-grid {
@@ -1018,12 +996,8 @@ textarea {
   }
 }
 
-@media (max-width: 768px) {
-  .prof-container {
-    grid-template-columns: 1fr;
-  }
-}
 
+/* основной media */
 @media (max-width: 768px) {
   body {
     align-items: flex-start;
@@ -1045,6 +1019,29 @@ textarea {
   font-size: 35px;
     margin-left: -20px;
 }
+
+      .news-grid {
+    grid-template-columns: 1fr;
+  }
+  .prof-container {
+    grid-template-columns: 1fr;
+  }
+   .hero {
+    padding: 60px 0;
+    clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
+  }
+
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .timeline {
+    padding-left: 30px;
+  }
+
+  .timeline-item::before {
+    left: -24px;
+  }
   .horizontal-menu,
   .horizontal-menu1 {
     padding: 10px;
@@ -1194,7 +1191,25 @@ textarea {
   textarea {
     font-size: 14px;
   }
+   h1 {
+    font-size: 2.2rem;
+  }
+
+  .prof-container {
+    grid-template-columns: 1fr;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+.text{
+  text-align: center;
+    margin-top: -90px;
+    font-size: smaller;}
+  .header-description {
+    font-size: 1.1rem;
+  }
 }
+/* конец основного media */
 /* структура для сведений и органов */
 
 /* Заголовки секций */
@@ -1844,25 +1859,6 @@ footer {
   }
 }
 
-@media (max-width: 768px) {
-  h1 {
-    font-size: 2.2rem;
-  }
-
-  .prof-container {
-    grid-template-columns: 1fr;
-    max-width: 500px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-.text{
-  text-align: center;
-    margin-top: -90px;
-    font-size: smaller;}
-  .header-description {
-    font-size: 1.1rem;
-  }
-}
 
 @media (max-width: 480px) {
   h1 {
