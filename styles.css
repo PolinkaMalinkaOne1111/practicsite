@@ -1037,8 +1037,14 @@ textarea {
     height: auto;
     margin: 10px 0;
     background-size: cover;
+    background-image: none;
+        background-color: green;
+        border-radius: 30px;
   }
-
+.logo2{
+  font-size: 35px;
+    margin-left: -20px;
+}
   .horizontal-menu,
   .horizontal-menu1 {
     padding: 10px;
@@ -1069,8 +1075,11 @@ textarea {
   .menu-icon,
   .menu-icon2 {
     display: block; /* Показываем иконку меню */
+    margin: auto;
   }
-
+.logo{
+  display: none; /* Скрываем обычное меню */
+}
   .text-block {
     font-size: 24px;
 
@@ -1086,6 +1095,7 @@ textarea {
   .white-stripe {
     width: 80%;
     margin-top: -40px;
+    display: none;
   }
 
   .card-container {
@@ -1845,7 +1855,10 @@ footer {
     margin-left: auto;
     margin-right: auto;
   }
-
+.text{
+  text-align: center;
+    margin-top: -90px;
+    font-size: smaller;}
   .header-description {
     font-size: 1.1rem;
   }
