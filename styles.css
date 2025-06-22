@@ -26,6 +26,9 @@ header {
   height: 688px;
   margin: 20px auto; /* Центрирование header */
 }
+
+.hed table{
+margin-left: 40px;}
 table {
   color: white;
   font-size: 30px;
