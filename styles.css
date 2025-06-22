@@ -1043,6 +1043,11 @@ textarea {
         width: 100%;
 
   }
+
+  .org-card{
+    
+    padding: 20px;
+  }
   .prepod{
         font-size: 30px;
   }
