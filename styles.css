@@ -1008,7 +1008,7 @@ textarea {
   .head,
   .hed {
     width: 100%;
-    height: auto;
+    height: 500px;
     margin: 10px 0;
     background-size: cover;
     background-image: none;
@@ -1077,6 +1077,17 @@ textarea {
 .logo{
   display: none; /* Скрываем обычное меню */
 }
+
+  .cer{
+        padding-top: 0;
+    width: 30px;
+  }
+.img1{
+ height: 130px;
+    width: 90%;
+    margin-left: 11px;
+}
+  
   .text-block {
     font-size: 24px;
 
@@ -1085,8 +1096,12 @@ textarea {
   }
 
   .naz {
-    font-size: 36px;
-    margin-left: 5px;
+   font-size: 30px;
+        margin-left: 5px;
+        color: white;
+        letter-spacing: normal;
+        margin-left: 10px;
+        text-align: center;
   }
 
   .white-stripe {
@@ -1095,6 +1110,13 @@ textarea {
     display: none;
   }
 
+  .hed table{
+      padding-top: 20px;}
+.hed table td{
+  letter-spacing: normal;
+    font-size: 17px;
+  padding: 10px 5px;
+}
   .card-container {
     flex-direction: column;
     gap: 20px;
@@ -1125,6 +1147,7 @@ textarea {
     width: 90%;
     font-size: 24px;
     height: 50px;
+    margin-bottom: 20px;
   }
 
   .tbl {
@@ -1209,7 +1232,11 @@ textarea {
     font-size: 1.1rem;
   }
 }
-/* конец основного media */
+/* КОНЕЦ основного media */
+
+
+
+
 /* структура для сведений и органов */
 
 /* Заголовки секций */
