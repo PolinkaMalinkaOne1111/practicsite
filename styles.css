@@ -1048,7 +1048,9 @@ textarea {
     
     padding: 20px;
   }
-
+.educationsp {
+  font-size: 15px;
+}
   .documents-container{
     grid-template-columns: auto;
   }
@@ -1077,7 +1079,8 @@ textarea {
     width: 100px;
     font-size: 20px;
 }
-
+.container2{
+width: 100%;}
   .org-unit h3{
         font-size: 16px;
     margin: 9px auto;
